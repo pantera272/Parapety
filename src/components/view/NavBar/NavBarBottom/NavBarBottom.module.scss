@@ -1,0 +1,10 @@
+@import '../../../../styles/settings.scss';
+
+.container {
+  margin: 0 auto;
+  height: 105px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+@import '../../../../styles/settings.scss';
+
+.container {
+  height: 100%;
+
+  ul {
+    margin: auto 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+      display: block;
+      float: left;
+      margin-right: 20px;
+    } 
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../../../styles/settings.scss';
+
+.container {
+  ul {
+    list-style: none;
+
+    li {
+      display: block;
+      float: left;
+      padding-left: 20px;
+
+      a {
+        text-decoration: none;
+        color: $navbar-links-font-color;
+        font-weight: 500;
+        font-size: 18px;
+        transition: 300ms;
+
+        &:hover {
+          color: $navbar-links-hover-font-color;
+        }
+      }
+    }
+  }
+}
