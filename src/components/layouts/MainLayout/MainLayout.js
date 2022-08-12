@@ -1,15 +1,18 @@
 import React from 'react';
-import Baner from '../../view/Baner/Baner';
 import NavBar from '../../view/NavBar/NavBar';
+import PropTypes from 'prop-types';
 
-const MainLayout = () => {
+const MainLayout = ({children}) => {
   return (
     <div>
       <NavBar />
-      <Baner />
-      <h1>MainLayout</h1>
+      {children}
     </div>
   )
+}
+
+MainLayout.propTypes = {
+  children: PropTypes.node,
 }
 
 export default MainLayout;
