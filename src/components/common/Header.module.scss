@@ -1,0 +1,19 @@
+@import '../../styles/settings.scss';
+
+.container {
+  text-align: left;
+  text-transform: uppercase;
+  p {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    color: $header-small-font-color;
+  }
+  h1 {
+    margin-top: -5px;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: $header-font-color;
+  }
+}

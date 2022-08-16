@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../../view/NavBar/NavBar';
-import PropTypes from 'prop-types';
+import { PropTypes } from 'prop-types';
 
 const MainLayout = ({children}) => {
   return (
